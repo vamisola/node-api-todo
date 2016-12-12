@@ -25,6 +25,7 @@ app.listen(process.env.PORT, process.env.IP, () => {
 });
 
 
+module.exports = app;
 
 
 
@@ -54,9 +55,6 @@ app.listen(process.env.PORT, process.env.IP, () => {
 
 //User
 //email - require - trim it - set type - set min lenght of 1
-
-
-
 
 // var newUser = new User({
 //     email: 'test!123.com',
